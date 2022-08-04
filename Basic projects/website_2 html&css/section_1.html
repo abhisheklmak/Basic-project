@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website desigh</title>
+    <link rel="stylesheet" type="text/css" href="css/section_1.css">
+    <link rel="stylesheet" type="text/css" href="css/media_query.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/.jpg" class="logo">
+                
+                <div class="nave-links" id="naveLinks">
+                    <i class="fa fa-times"aria-hidden="true"onclick="hideMenu()" ></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURCE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTECT</a></li>
+                        
+                    </ul>
+                </div>
+                <i class="fa fa-bars" aria-hidden="true"onclick="showMenu()"></i>
+                
+
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest university</h1>
+            <p>making website is one of the easire thing in the world.
+                you just need to learn HTM,CSS,<br>Javscript and you are good to go</p>
+                <a href=""class="hero-btn">visite us to know more</a>
+
+
+    </section>
+    <!-----java script for toggle menu---->
+    <script>
+        var navLinks=document.getelementById("naveLinks");
+    function showMenu() {
+        naveLinks.style.right="0";
+    }
+        function hideMenu() {
+        naveLinks.style.right="-200px";
+    }
+    </script>
+    
+</body>
+</html>

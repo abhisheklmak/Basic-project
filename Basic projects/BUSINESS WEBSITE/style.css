@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins',sens-serif;
+
+}
+#banner{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),#009688),url(images/student-g2844d81f0_640.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    width: 340px;
+    position: absolute;
+    top: 15%;
+    left:1%;
+    height: 100vh;
+}
+.banner-text {
+    text-align: center;
+    color: #fff;
+    padding: 150px;
+    font-size: 25px;
+
+}
+.banner-text h1{
+    font-size: 130;
+    font-family:'kaushan script',cursive;
+}
+.banner-text p{
+    font-size: 30px;
+    font-style: italic;
+    color: blue;
+}
